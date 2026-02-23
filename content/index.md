@@ -4,32 +4,12 @@ description: The security layer agents are missing. DNS-based identity and human
 navigation: false
 ---
 
-::hero
----
-announcement:
-  title: Built on DDISA
-  to: /getting-started
-  icon: i-heroicons-arrow-right-20-solid
-actions:
-  - label: Get Started
-    to: /getting-started
-    icon: i-heroicons-rocket-launch
-  - label: View on GitHub
-    to: https://github.com/patrick-hofmann/dns-id
-    target: _blank
-    icon: i-simple-icons-github
-    variant: subtle
----
+# The security layer agents are missing.
 
-#title
-The security layer [agents are missing.]{.text-primary}
-
-#description
 AI agents are getting powerful. They send emails, move money, deploy code. OpenApe makes sure a human approves what matters — without slowing anything down.
-::
 
 ::card-group
-  ::card{title="OpenApe Auth" icon="i-heroicons-key" to="/ecosystem/auth"}
+  ::card{title="OpenApe Auth" icon="i-heroicons-key" to="/getting-started"}
   DNS-based login for humans and agents. Passkeys for humans, Ed25519 for machines. One protocol, any domain.
   ::
   ::card{title="OpenApe Grants" icon="i-heroicons-shield-check" to="/ecosystem/grants"}

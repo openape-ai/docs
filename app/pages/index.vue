@@ -13,8 +13,8 @@ useSeoMeta({
   ogTitle: title,
   description,
   ogDescription: description,
-  ogImage: '',
-  twitterImage: ''
+  ogImage: undefined,
+  twitterImage: undefined
 })
 </script>
 
