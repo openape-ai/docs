@@ -8,7 +8,8 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
-    "typecheck": "nuxt typecheck"
+    "typecheck": "nuxt typecheck",
+    "test": "vitest run --passWithNoTests"
   },
   "dependencies": {
     "@iconify-json/lucide": "^1.2.90",
@@ -34,12 +35,16 @@
     "@nuxt/eslint": "^1.15.1",
     "eslint": "^10.0.0",
     "typescript": "^5.9.3",
-    "vue-tsc": "^3.2.4"
+    "vue-tsc": "^3.2.4",
+    "vitest": "^3.2.4"
   },
   "packageManager": "pnpm@9.15.4",
   "repository": {
     "type": "git",
     "url": "https://github.com/openape-ai/docs.git"
   },
-  "author": "Patrick Hofmann"
+  "author": "Patrick Hofmann",
+  "engines": {
+    "node": ">=22"
+  }
 }

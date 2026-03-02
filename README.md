@@ -44,4 +44,4 @@ Deployed at [docs.openape.at](https://docs.openape.at).
 
 ## License
 
-[MIT](./LICENSE)
+[AGPL-3.0-or-later](./LICENSE)
