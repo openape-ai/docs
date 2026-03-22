@@ -72,6 +72,13 @@ export default defineNuxtConfig({
         ]
       },
       {
+        title: 'Guides',
+        contentCollection: 'docs',
+        contentFilters: [
+          { field: 'path', operator: 'LIKE', value: '/guides%' }
+        ]
+      },
+      {
         title: 'Ecosystem',
         contentCollection: 'docs',
         contentFilters: [

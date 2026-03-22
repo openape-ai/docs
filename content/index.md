@@ -8,7 +8,7 @@ navigation: false
 
 AI agents are getting powerful. They send emails, move money, deploy code. OpenApe makes sure a human approves what matters — without slowing anything down.
 
-## Agent Gatekeeping
+## Agent Gate Applications
 
 ::card-group
   ::card{title="grapes" icon="i-heroicons-shield-check" to="/ecosystem/grapes"}
@@ -25,30 +25,36 @@ AI agents are getting powerful. They send emails, move money, deploy code. OpenA
 ## Get Started
 
 ::card-group
-  ::card{title="End-to-End Tutorial" icon="i-heroicons-academic-cap" to="/getting-started/end-to-end-tutorial"}
-  Set up IdP + SP + Agent from scratch. The complete picture in one guide.
+  ::card{title="Working with Agents" icon="i-heroicons-cpu-chip" to="/getting-started/working-with-agents"}
+  Set up grapes, shapes, and escapes to control your AI agent.
   ::
-  ::card{title="Agent Integration" icon="i-heroicons-cpu-chip" to="/getting-started/agent-integration"}
-  Enroll agents, request grants, execute with approval. Full API walkthrough.
+  ::card{title="Setup a Service Provider" icon="i-heroicons-key" to="/getting-started/setup-service-provider"}
+  Add OpenApe login to your app. Three steps, zero config in dev.
   ::
-  ::card{title="Add Login to Your App" icon="i-heroicons-key" to="/getting-started/for-service-providers"}
-  Three steps, zero config in dev. Passkeys for humans, Ed25519 for agents.
+  ::card{title="Setup an Identity Provider" icon="i-heroicons-server-stack" to="/getting-started/setup-identity-provider"}
+  Run your own IdP with DNS, Passkeys, and grant management.
+  ::
+  ::card{title="Developers" icon="i-heroicons-code-bracket" to="/getting-started/developers"}
+  Raw API reference for building custom integrations.
   ::
 ::
 
 ## Explore
 
 ::card-group
+  ::card{title="Guides" icon="i-heroicons-academic-cap" to="/guides/how-it-works"}
+  How it works, capabilities, delegations, and end-to-end tutorials.
+  ::
   ::card{title="Ecosystem" icon="i-heroicons-puzzle-piece" to="/ecosystem"}
-  The agent gatekeeping trinity, developer SDK, Nuxt modules, and infrastructure packages.
-  ::
-  ::card{title="Reference" icon="i-heroicons-book-open" to="/reference"}
-  Configuration, API endpoints, and technical specifications for all components.
-  ::
-  ::card{title="Operations" icon="i-heroicons-server" to="/operations"}
-  Deployment, troubleshooting, and monitoring for production environments.
+  Agent Gate Applications, infrastructure packages, and developer SDK.
   ::
   ::card{title="Security" icon="i-heroicons-lock-closed" to="/security/compliance"}
   NIS2 and NIST CSF 2.0 compliant by design. Threat model, compliance analysis.
+  ::
+  ::card{title="Reference" icon="i-heroicons-book-open" to="/reference"}
+  Configuration, API endpoints, and technical specifications.
+  ::
+  ::card{title="Operations" icon="i-heroicons-wrench-screwdriver" to="/operations"}
+  Deployment, troubleshooting, and monitoring.
   ::
 ::
