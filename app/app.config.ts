@@ -26,7 +26,7 @@ export default defineAppConfig({
     colorMode: true,
     links: [{
       'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/patrick-hofmann/dns-id',
+      'to': 'https://github.com/openape-ai',
       'target': '_blank',
       'aria-label': 'GitHub'
     }]
@@ -41,7 +41,7 @@ export default defineAppConfig({
       'aria-label': 'OpenApe Website'
     }, {
       'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/patrick-hofmann/dns-id',
+      'to': 'https://github.com/openape-ai',
       'target': '_blank',
       'aria-label': 'OpenApe on GitHub'
     }]
@@ -50,11 +50,11 @@ export default defineAppConfig({
     title: 'Table of Contents',
     bottom: {
       title: 'Community',
-      edit: 'https://github.com/patrick-hofmann/dns-id/edit/main/docs/content',
+      edit: 'https://github.com/openape-ai/docs/edit/main/content',
       links: [{
         icon: 'i-lucide-star',
         label: 'Star on GitHub',
-        to: 'https://github.com/patrick-hofmann/dns-id',
+        to: 'https://github.com/openape-ai/docs',
         target: '_blank'
       }, {
         icon: 'i-heroicons-globe-alt',
