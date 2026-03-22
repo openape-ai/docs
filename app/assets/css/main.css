@@ -4,7 +4,6 @@
 @source "../../../content/**/*";
 
 @theme static {
-  --container-8xl: 90rem;
   --font-sans: 'Public Sans', sans-serif;
 
   --color-orange-50: #FFF7ED;
@@ -18,8 +17,4 @@
   --color-orange-800: #9A3412;
   --color-orange-900: #7C2D12;
   --color-orange-950: #431407;
-}
-
-:root {
-  --ui-container: var(--container-8xl);
 }
