@@ -42,6 +42,10 @@ export default defineNuxtConfig({
     }
   },
 
+  routeRules: {
+    '/**': { isr: 60 }
+  },
+
   eslint: {
     config: {
       stylistic: {
